@@ -9,20 +9,25 @@
     <body>
         <header>
             <div id="head">
-                    <a href="#About Me" >About Me</a>
-                    <a href="#Skills_and_Hobbies" >Skills & Hobbies</a>
-                    <a href="#Contact">Contact</a>
+                <center>
+                <h3 id="text_menu">Menu</h3>
+                <a href="#About Me" >About Me</a>
+                <a href="#Skills_and_Hobbies" >Skills & Hobbies</a>
+                <a href="#my_websites">My Websites</a>
+                <a href="#Contact">Contact</a>
+                </center>
+                
             </div>
         </header>
 
         <div id="about_me">
             <section id="About Me">
-                <h2 style="color:black; text-align: center; margin-top:20px; font-family: sans-serif; font-weight: 700;">ABOUT ME</h2>
+                <h2 id="text_about_me">ABOUT ME</h2>
                 <center>
-                <img src="images/my_image.jpg"  style="border-radius: 05%; border: 10px black solid;  background-size: cover;  margin-right: 15px;" alt="my_image">
-                <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;">P.HARISH</h1>
+                <img id="My_img" src="images/my_image.jpg"  alt="my_image">
+                <h1 id="My_name">P.HARISH</h1>
                 </center>
-                <p style="margin-left:50px; margin-top: 0; font-size: large; margin-right: 15px; font-weight: 500; font-family:sans-serif">
+                <p id="My_intro_para">
                     Hi! everyone myself  <b>Harish</b>  , i'm currently doing my UG in ECE branch at Karunya Institue of Technology. And i'm very enthusiastic about how a website works , and what are all the effortful things that happen behind the scenes when we browse very effortlessly 😅. So that drove me to learn web development and i had started to learn , till now i know the basics of HTML and CSS . But recently while researching about this course i came across Edureka's internship and course of Full Stack Web Development, from here on i wish, i wiil learn more about web and how it was made .
                     ~ Thank you 🙏
                 </p>
@@ -32,7 +37,6 @@
                     <a href="https://www.linkedin.com/in/p-harish-652781225/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.hackerrank.com/pbharish026" target="_blank" ><i class="fab fa-hackerrank"></i></a>
                     <a href="https://github.com/pinnepalliharish" target="_blank" ><i class="fab fa-github-square"></i></a>
-
               </center>
             </section>
         </div>
@@ -41,7 +45,7 @@
             <section id="Skills_and_Hobbies">
                 <br>
                 <center>
-                    <h2 style="margin-top: 0px; color:white; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">SKILLS :</h2>
+                    <h2 id="text_skills">SKILLS :</h2>
                     <i class="fab fa-python"></i>
                     <i class="fab fa-java"></i>
                     <i class="fab fa-html5"></i>
@@ -51,34 +55,46 @@
                     <i class="fab fa-react"></i>   
                  </center>
                 <br>
-                <hr style=" border: 1px dashed white; width:55% ;">
+                <hr id="Skills_hr_line">
                 <br>
                 <center>
-                    <h2 style=" margin-top: 0; color: whitesmoke; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">HOBBIES</h2>
+                    <h2 id="text_hobbies">HOBBIES</h2>
                     <i class="fas fa-music"></i>
-                    <img src="images/playing_cricket.jpg" height="110px" style="margin-right: 55px; margin-bottom: 65px;" alt="playing_cricket">
+                    <img src="images/playing_cricket.jpg"  id="Cricket_img" alt="playing_cricket">                   
                     <i class="fas fa-laptop-code"></i>
                     <i class="fas fa-camera-retro"></i>
                 </center> 
             </section>
         </div>
 
-        <div style="height: 600px; width: 100%; background-color: whitesmoke;">
+        <div id="My_Websites">
+            <section id="my_websites">
+                <center>
+                    <br>
+                    <h2 id="text_my_websites">MY WEBSITES</h2>
+                    <a href="https://pinnepalliharish.github.io/zomato_homepage/" target="_blank"><img src="images/zomato_homepage_pic.png" id="zomato_link" alt="zomato"></a>
+                    <a href="https://pinnepalliharish.github.io/booking.im_first_page/" target="_blank"><img src="images/booking.im_pic.png" id="booking_im_link" alt=""></a>
+                </center>
+            </section>
+            
+        </div>
+
+        <div id="Contact_and_location">
             <section id="Contact">
                     <center>
-                        <h2 style="color:black; margin-top: 5px;  font-family: sans-serif; font-weight: 700;">CONTACT ME</h2>
+                        <h2 id="text_contact_me">CONTACT ME</h2>
                     </center>
-                    <div style="height: 550px; width: 30%; background-color: black; float: left;">
+                    <div id="location">
                         <center>
                             <br>
-                            <h3 style="margin: 0; color: white;  font-family: sans-serif; font-weight: 700;">MY LOCATION :</h3>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3854.7669582204126!2d78.07303740696406!3d14.95007132390526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spenna%20cementstalaricheruvu!5e0!3m2!1sen!2sin!4v1637580680464!5m2!1sen!2sin" width="400" height="400" style=" margin-top: 30px;  " allowfullscreen="" loading="lazy" ></iframe>
-                            </center>
+                            <h3 id="text_my_location">MY LOCATION :</h3>
+                            <iframe id="frame_location" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3854.7669582204126!2d78.07303740696406!3d14.95007132390526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spenna%20cementstalaricheruvu!5e0!3m2!1sen!2sin!4v1637580680464!5m2!1sen!2sin" allowfullscreen="" loading="lazy" ></iframe>
+                        </center>
                     </div>
 
-                    <div style="height: 540px; width: 70%; background-color: whitesmoke;  float: left; margin-top: 0; ">
-                        <form action="https://www.google.co.in/" style="margin-left: 300px; margin-top: 50px; ">
-                            <b>First Name</b>    : <input type="text" placeholder="Enter your First name" style="margin-right:20px ;"/> 
+                    <div id="Contact_details">
+                        <form id="forms_in_contact" action="https://www.google.co.in/">
+                            <b>First Name</b>    : <input type="text" placeholder="Enter your First name"/> 
                             <b>Second Name</b>   : <input type="text" placeholder="Enter your Second name"/> <br><br>
                             <b>Age</b>     : <input type="number" placeholder="Enter your Age"/><br><br>
                             <b>Email</b>   : <input type="email" placeholder="Enter your Email id"/><br><br>
@@ -93,8 +109,9 @@
                                     </datalist> 
                                 <br><br>
                             <b>Drop your queries : </b> <br> <br>
-                                <textarea cols="30" rows="10" value="Message" style="margin: 0px; width: 281px; height: 139px;"> </textarea> <br><br>
-                            <input type="submit" style="margin-left: 225px; background-color: black; color: white; font-weight: 500;">
+                                <textarea cols="30" rows="10" value="Message"> </textarea> <br><br>
+                            <input type="submit" id="
+                            submit_input">
                         </form>
                         <span style="margin-left: 300px; margin-right: 20px;" >Mobile : 1234567890</span> 
                         <span >Email: pbharish026@gmail.com</span>
@@ -102,12 +119,14 @@
             </section>
         </div>
 
-        <div style="background-color: black; height: 80px; width: 99%; position:absolute; ">
-            
-            <h2 style="color: white; margin-left: 780px; margin-top:10px; ">&copy; P.HARISH</h2>
-            <a href="https://pinnepalliharish.github.io/profile_website/" style="color: aliceblue; margin-left: 830px;"> Go To Top</a>
+        <div id="copyryt_and_gototop">   
+            <center>
+                <h2 id="copyryt_and_name">&copy; P.HARISH</h2>
+            </center> 
+            <center>
+                <a href="https://pinnepalliharish.github.io/profile_website/" id="gototop"> Go To Top</a>
+            </center>
 
-        
         </div>
     </body>
 

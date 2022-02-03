@@ -1,14 +1,18 @@
 body{
-    margin: 5px;
+    margin: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
 #head{
-    
     text-align: center ;
-    height: 25px;
+    height: 60px;
     width: 100%;
     background-color: black;    
+}
+#text_menu{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 0;
 }
 #head a{
     font-family:sans-serif;
@@ -22,6 +26,42 @@ body{
     margin-bottom: 0;
     height: 470px;
     background-color: white;
+}
+#text_about_me{
+    color:black; 
+    text-align: center; 
+    margin-top:20px; 
+    font-family: sans-serif; 
+    font-weight: 700;
+}
+#My_img{
+    border-radius: 05%; 
+    border: 10px black solid;  
+    background-size: cover;  
+    margin-right: 15px;
+}
+#My_name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+}
+#My_intro_para{
+    margin-left:50px; 
+    margin-top: 0; 
+    font-size: large; 
+    margin-right: 15px; 
+    font-weight: 500; 
+    font-family:sans-serif
+}
+#skills{
+    height: 480px;
+    margin-top:0;
+    background-color: black;
+    margin-bottom: 0;
+}
+#text_skills{
+    margin-top: 0px; 
+    color:white; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .fa-linkedin{
     font-size: 50px;
@@ -75,15 +115,24 @@ body{
     color: white;
     margin-right: 15px;
 }
+#Skills_hr_line{
+    border: 1px dashed white; 
+    width:55% ;
+}
+#text_hobbies{
+    margin-top: 0; 
+    color: whitesmoke; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .fa-music{
     font-size: 100px;
     color: white;
     margin-right: 55px;
 }
-.fa-cricket-bat-ball{
-    font-size: 100px;
-    color: white;
-    margin-right: 55px;
+#Cricket_img{
+    margin-right: 55px; 
+    height:110px; 
+    margin-bottom: 65px;
 }
 
 .fa-laptop-code{
@@ -95,18 +144,103 @@ body{
     font-size: 100px;
     color: white;
 }
-#skills{
-    height: 480px;
-    margin-top:0;
-    background-color: black;
-}
 
-
-/* #footer{
-    position: absolute;
-    height: 70px;
+#My_Websites{
+    height: 400px;
     width: 100%;
     background-color: black;
-    text-align: center;
+    margin-top: 2px;
+}
+#text_my_websites{
+    color: white;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+#zomato_link{
+    height:300px ;
+    width: 350px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+#zomato_link:hover{
+    transform: scale(1.1);
+}
+#booking_im_link{
+    height:300px ;
+    width: 350px;
+    margin-top: 15px;
+}
+#booking_im_link:hover{
+    transform: scale(1.1);
 
-} */
+}
+#Contact_and_location{
+    height: 600px; 
+    width: 100%; 
+    background-color: whitesmoke;
+}
+#text_contact_me{
+    color:black; 
+    margin-top: 5px;  
+    font-family: sans-serif; 
+    font-weight: 700;
+}
+
+#location{
+    height: 550px; 
+    width: 30%; 
+    background-color: black; 
+    float: left;
+}
+#text_my_location{
+    margin: 0; 
+    color: white;  
+    font-family: sans-serif; 
+    font-weight: 700;
+}
+#frame_location{
+    margin-top: 30px; 
+    width:400px; 
+    height:400px ;
+}
+#Contact_details{
+    height: 540px; 
+    width: 70%; 
+    background-color: whitesmoke;  
+    float: left; 
+    margin-top: 0;
+}
+#forms_in_contact{
+    margin-left: 300px; 
+    margin-top: 50px;
+}
+#submit_input{
+    margin-left: 225px; 
+    background-color: black; 
+    color: white; 
+    font-weight: 500;
+}
+#copyryt_and_gototop{
+    background-color: black; 
+    height: 100px; 
+    width: 100%; 
+    margin-top: 10px;
+}
+#copyryt_and_name{
+    color: white; 
+    margin-left: 700px; 
+    margin-top:15px; 
+    position:absolute;
+}
+#gototop{
+    color: aliceblue; 
+    border: 1px white solid;
+    margin-top: 55px; 
+    position:absolute;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+#gototop:hover{
+    background-color: white;
+    color: black;
+}
