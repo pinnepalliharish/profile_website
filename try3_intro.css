@@ -24,8 +24,9 @@ body{
 }
 #about_me{
     margin-bottom: 0;
-    height: 470px;
+    height: 500px;
     background-color: white;
+    width: 100%;
 }
 #text_about_me{
     color:black; 
@@ -45,23 +46,12 @@ body{
     text-align: center;
 }
 #My_intro_para{
-    margin-left:50px; 
+    margin-left:70px; 
     margin-top: 0; 
     font-size: large; 
     margin-right: 15px; 
     font-weight: 500; 
     font-family:sans-serif
-}
-#skills{
-    height: 480px;
-    margin-top:0;
-    background-color: black;
-    margin-bottom: 0;
-}
-#text_skills{
-    margin-top: 0px; 
-    color:white; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .fa-linkedin{
     font-size: 50px;
@@ -78,6 +68,12 @@ body{
 .fa-github-square{
     font-size: 50px;
     color: black;
+}
+#skills{
+    height: 480px;
+    margin-top:0;
+    background-color: black;
+    margin-bottom: 0;
 }
 .fa-python{
     font-size: 100px;
@@ -115,6 +111,13 @@ body{
     color: white;
     margin-right: 15px;
 }
+#text_skills{
+    margin-top: 0px; 
+    color:white; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 #Skills_hr_line{
     border: 1px dashed white; 
     width:55% ;
@@ -161,6 +164,7 @@ body{
     width: 350px;
     margin-right: 40px;
     margin-top: 15px;
+    border: 4px white solid;
 }
 #zomato_link:hover{
     transform: scale(1.1);
@@ -169,13 +173,15 @@ body{
     height:300px ;
     width: 350px;
     margin-top: 15px;
+    border: 4px white solid;
+
 }
 #booking_im_link:hover{
     transform: scale(1.1);
 
 }
 #Contact_and_location{
-    height: 600px; 
+    height: 700px; 
     width: 100%; 
     background-color: whitesmoke;
 }
@@ -184,6 +190,7 @@ body{
     margin-top: 5px;  
     font-family: sans-serif; 
     font-weight: 700;
+    font-size: 30px;
 }
 
 #location{
@@ -212,7 +219,7 @@ body{
 }
 #forms_in_contact{
     margin-left: 300px; 
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #submit_input{
     margin-left: 225px; 
@@ -220,27 +227,517 @@ body{
     color: white; 
     font-weight: 500;
 }
+.mbl_email{
+    margin-left: 300px; 
+}
 #copyryt_and_gototop{
     background-color: black; 
     height: 100px; 
     width: 100%; 
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 #copyryt_and_name{
     color: white; 
-    margin-left: 700px; 
-    margin-top:15px; 
-    position:absolute;
+    margin:0 ;
 }
 #gototop{
     color: aliceblue; 
     border: 1px white solid;
-    margin-top: 55px; 
-    position:absolute;
     text-decoration: none;
-    margin-bottom: 10px;
+
 }
 #gototop:hover{
     background-color: white;
     color: black;
+}
+
+
+@media screen and (max-width:1350px) {
+    #frame_location{
+        margin-top: 30px; 
+        width:250px; 
+        height:400px ;
+    }
+    #location{
+        height: 500px; 
+        width: 350px; 
+        background-color: black; 
+        float: left;
+    }
+    
+}
+
+
+@media screen and (max-width:1310px) {
+    #about_me{
+        height: 500px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+    #frame_location{
+        margin-top: 30px; 
+        width:300px; 
+        height:400px ;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    #forms_in_contact{
+        margin-left: 100px; 
+        margin-top: 20px;
+    }
+    .mbl_email{
+        margin-left: 100px; 
+    }
+    #frame_location{
+        margin-top: 30px; 
+        width:200px; 
+        height:400px ;
+    } 
+    #location{
+        height: 500px; 
+        width: 260px; 
+        background-color: black; 
+        float: left;
+    }
+
+}
+
+
+@media screen and (max-width:1107px) {
+    #about_me{
+        height: 520px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:947px) {
+    #frame_location{
+        margin-top: 30px; 
+        width:230px; 
+        height:400px ;
+    }
+}
+
+
+@media screen and (max-width:875px) {
+    #frame_location{
+        margin-top: 30px; 
+        width:170px; 
+        height:400px ;
+    }
+    #location{
+        height: 500px; 
+        width: 200px; 
+        background-color: black; 
+        float: left;
+    }
+    #forms_in_contact{
+        margin-left: 50px; 
+        margin-top: 20px;
+    }
+    .mbl_email{
+        margin-left: 50px; 
+    }
+    #about_me{
+        height: 550px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:847px) {
+    #frame_location{
+        margin-top: 30px; 
+        width:170px; 
+        height:400px ;
+    }
+    #location{
+        height: 500px; 
+        width: 200px; 
+        background-color: black; 
+        float: left;
+    }
+    #about_me{
+        height: 550px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width:821px) {
+    #frame_location{
+        margin-top: 20px; 
+        width:100px; 
+        height:300px ;
+    }
+    #forms_in_contact{
+        margin-left: 200px; 
+        margin-top: 20px;
+    }
+    #location{
+        height: 400px; 
+        width: 150px; 
+        background-color: black; 
+        float: left;
+    }
+    #text_my_location{
+        margin: 0; 
+        color: white;  
+        font-family: sans-serif; 
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .mbl_email{
+        margin-left: 200px; 
+    }
+}
+
+
+@media screen and (max-width:803px) {
+    #about_me{
+        height: 580px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+    #skills{
+        height: 400px;
+        margin-top:0;
+        background-color: black;
+        margin-bottom: 0;
+    }
+    .fa-python{
+        font-size: 70px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-java{
+        font-size: 70px;
+        color: white;
+        margin-right: 15px;
+    }
+    
+    .fa-css3{
+        font-size: 70px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-html5{
+        font-size: 70px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-js{
+        font-size: 70px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-node{
+        font-size: 70px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-react{
+        font-size: 70px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-music{
+        font-size: 70px;
+        color: white;
+        margin-right: 55px;
+    }
+    #Cricket_img{
+        margin-right: 40px; 
+        height:90px; 
+        margin-bottom: 65px;
+    }
+    .fa-laptop-code{
+        font-size: 70px;
+        color: white;
+        margin-right: 55px;   
+    }
+    .fa-camera-retro{
+        font-size: 70px;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width:778px) {
+    #about_me{
+        height: 600px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+    #zomato_link{
+        height:280px ;
+        width: 250px;
+        margin-right: 40px;
+        margin-top: 15px;
+        border: 4px white solid;
+    }
+    #booking_im_link{
+        height:280px ;
+        width: 250px;
+        margin-top: 15px;
+        border: 4px white solid;
+    
+    }
+    #Contact_and_location{
+        height: 690px; 
+        width: 100%; 
+        background-color: whitesmoke;
+    }
+
+}
+
+
+
+@media screen and (max-width:663px) {
+    /* #Contact_and_location{
+        height: 710px; 
+        width: 100%; 
+        background-color: whitesmoke;
+    } */
+    #forms_in_contact{
+        margin-left: 100px; 
+        margin-top: 20px;
+    }
+    .mbl_email{
+        margin-left: 100px; 
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and (max-width:656px) {
+    #about_me{
+        height: 650px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width:582px) {
+    #skills{
+        height: 350px;
+        margin-top:0;
+        background-color: black;
+        margin-bottom: 0;
+    }
+    .fa-python{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-java{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    
+    .fa-css3{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-html5{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-js{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-node{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-react{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-music{
+        font-size: 40px;
+        color: white;
+        margin-right: 55px;
+    }
+    #Cricket_img{
+        margin-right: 50px; 
+        height:70px; 
+        margin-bottom: 40px;
+    }
+    .fa-laptop-code{
+        font-size: 40px;
+        color: white;
+        margin-right: 55px;   
+    }
+    .fa-camera-retro{
+        font-size: 40px;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+    
+    #My_Websites{
+        height: 320px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+    }
+    #zomato_link{
+        height:220px ;
+        width: 200px;
+        margin-right: 40px;
+        margin-top: 15px;
+        border: 4px white solid;
+    }
+    #booking_im_link{
+        height:220px ;
+        width: 200px;
+        margin-top: 15px;
+        border: 4px white solid;
+    
+    }
+    #about_me{
+        height: 700px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+    #forms_in_contact{
+        margin-left: 50px; 
+        margin-top: 20px;
+    }
+    .mbl_email{
+        margin-left: 50px; 
+        margin-right: 20px;
+    }
+    #Contact_and_location{
+        height: 650px; 
+        width: 100%; 
+        background-color: whitesmoke;
+    }
+}
+
+
+@media screen and (max-width:534px) {
+    #head a {
+        font-family: sans-serif;
+        font-size: medium;
+        border: 5px;
+        color: white;
+        margin-left: 23px;
+        text-decoration: none;
+    }
+    #about_me{
+        height: 720px;
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+    }
+    #Contact_and_location{
+        height: 680px; 
+        width: 100%; 
+        background-color: whitesmoke;
+    }
+    #location{
+        height: 270px; 
+        width: 100px; 
+        background-color: black; 
+        float: left;
+    }
+    #frame_location{
+        margin-top: 10px; 
+        width:70px; 
+        height:200px ;
+    }
+    #text_my_location{
+        margin: 0; 
+        color: white;  
+        font-family: sans-serif; 
+        font-weight: 100;
+        font-size: 10px;
+    }
+    .fa-python{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-java{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    
+    .fa-css3{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-html5{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-js{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-node{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-react{
+        font-size: 40px;
+        color: white;
+        margin-right: 15px;
+    }
+    .fa-music{
+        font-size: 40px;
+        color: white;
+        margin-right: 55px;
+    }
+    #Cricket_img{
+        margin-right: 50px; 
+        height:70px; 
+        margin-bottom: 40px;
+    }
+    .fa-laptop-code{
+        font-size: 40px;
+        color: white;
+        margin-right: 55px;   
+    }
+    .fa-camera-retro{
+        font-size: 40px;
+        color: white;
+    }
+
 }
