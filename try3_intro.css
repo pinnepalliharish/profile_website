@@ -149,35 +149,58 @@ body{
 }
 
 #My_Websites{
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-color: black;
     margin-top: 2px;
+    color: white;
 }
 #text_my_websites{
     color: white;
     margin-top: 0;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+#zomato_div{
+    height: 350px;
+    width: 350px;
+    position:absolute;
+    margin-left: 400px;
+
 }
 #zomato_link{
     height:300px ;
     width: 350px;
-    margin-right: 40px;
-    margin-top: 15px;
+    margin-top: 10px;
     border: 4px white solid;
 }
 #zomato_link:hover{
     transform: scale(1.1);
+}
+#zomato_link_text{
+    font-size: 20px;
+    margin-top: 15px;
+}
+#booking_div{
+    height: 350px;
+    width: 350px;
+    position:absolute;
+    margin-left: 800px;
 }
 #booking_im_link{
     height:300px ;
     width: 350px;
     margin-top: 15px;
     border: 4px white solid;
-
 }
+
 #booking_im_link:hover{
     transform: scale(1.1);
+
+}
+#booking_im_link_text{
+    font-size: 20px;
+    margin-top: 15px;
 
 }
 #Contact_and_location{
@@ -740,4 +763,647 @@ body{
         color: white;
     }
 
+}
+
+@media screen and (max-width:1323px) {
+    #My_Websites{
+        height: 450px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 350px;
+        width: 350px;
+        position:absolute;
+        margin-left: 270px;
+    
+    }
+    #zomato_link{
+        height:300px ;
+        width: 350px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 350px;
+        width: 350px;
+        position:absolute;
+        margin-left: 700px;
+    }
+    #booking_im_link{
+        height:300px ;
+        width: 350px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    
+    }
+}
+
+@media screen and (max-width:1228px) {
+    #My_Websites{
+        height: 450px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 350px;
+        width: 350px;
+        position:absolute;
+        margin-left: 220px;
+    
+    }
+    #zomato_link{
+        height:300px ;
+        width: 350px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 350px;
+        width: 350px;
+        position:absolute;
+        margin-left: 620px;
+    }
+    #booking_im_link{
+        height:300px ;
+        width: 350px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    
+    }
+}
+
+@media screen and (max-width:1087px) {
+    #My_Websites{
+        height: 450px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 350px;
+        width: 350px;
+        position:absolute;
+        margin-left: 160px;
+    
+    }
+    #zomato_link{
+        height:300px ;
+        width: 350px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 350px;
+        width: 350px;
+        position:absolute;
+        margin-left: 550px;
+    }
+    #booking_im_link{
+        height:300px ;
+        width: 350px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    
+    }
+}
+
+@media screen and (max-width:956px) {
+    #My_Websites{
+        height: 450px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 300px;
+        width: 300px;
+        position:absolute;
+        margin-left: 140px;
+    
+    }
+    #zomato_link{
+        height:250px ;
+        width: 300px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 300px;
+        width: 300px;
+        position:absolute;
+        margin-left: 500px;
+    }
+    #booking_im_link{
+        height:250px ;
+        width: 300px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    
+    }
+}
+
+
+
+@media screen and (max-width:956px) {
+    #My_Websites{
+        height: 400px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 300px;
+        width: 300px;
+        position:absolute;
+        margin-left: 90px;
+    
+    }
+    #zomato_link{
+        height:250px ;
+        width: 300px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 300px;
+        width: 300px;
+        position:absolute;
+        margin-left: 450px;
+    }
+    #booking_im_link{
+        height:250px ;
+        width: 300px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 20px;
+        margin-top: 15px;
+    
+    }
+}
+
+
+@media screen and (max-width:796px) {
+    #My_Websites{
+        height: 350px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 250px;
+        width: 250px;
+        position:absolute;
+        margin-left: 100px;
+    
+    }
+    #zomato_link{
+        height:200px ;
+        width: 250px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 250px;
+        width: 250px;
+        position:absolute;
+        margin-left: 400px;
+    }
+    #booking_im_link{
+        height:200px ;
+        width: 250px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 15px;
+        margin-top: 15px;
+    
+    }
+}
+
+@media screen and (max-width:704px) {
+    #My_Websites{
+        height: 350px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 250px;
+        width: 250px;
+        position:absolute;
+        margin-left: 70px;
+    
+    }
+    #zomato_link{
+        height:200px ;
+        width: 250px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 250px;
+        width: 250px;
+        position:absolute;
+        margin-left: 350px;
+    }
+    #booking_im_link{
+        height:200px ;
+        width: 250px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 15px;
+        margin-top: 15px;
+    
+    }
+}
+
+@media screen and (max-width:654px) {
+    #My_Websites{
+        height: 350px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 250px;
+        width: 250px;
+        position:absolute;
+        margin-left: 40px;
+    
+    }
+    #zomato_link{
+        height:200px ;
+        width: 250px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 250px;
+        width: 250px;
+        position:absolute;
+        margin-left: 330px;
+    }
+    #booking_im_link{
+        height:200px ;
+        width: 250px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 15px;
+        margin-top: 15px;
+    
+    }
+}
+
+@media screen and (max-width:622px) {
+    #My_Websites{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 200px;
+        width: 200px;
+        position:absolute;
+        margin-left: 80px;
+    
+    }
+    #zomato_link{
+        height:150px ;
+        width: 200px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 200px;
+        width: 200px;
+        position:absolute;
+        margin-left: 320px;
+    }
+    #booking_im_link{
+        height:150px ;
+        width: 200px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 10px;
+        margin-top: 15px;
+    
+    }
+}
+
+
+@media screen and (max-width:575px) {
+    #My_Websites{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 200px;
+        width: 200px;
+        position:absolute;
+        margin-left: 50px;
+    
+    }
+    #zomato_link{
+        height:150px ;
+        width: 200px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 200px;
+        width: 200px;
+        position:absolute;
+        margin-left: 280px;
+    }
+    #booking_im_link{
+        height:150px ;
+        width: 200px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 10px;
+        margin-top: 15px;
+    
+    }
+}
+
+
+@media screen and (max-width:516px) {
+    #My_Websites{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        margin-top: 2px;
+        color: white;
+    }
+    #text_my_websites{
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    }
+    #zomato_div{
+        height: 200px;
+        width: 200px;
+        position:absolute;
+        margin-left: 30px;
+    
+    }
+    #zomato_link{
+        height:150px ;
+        width: 200px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    #zomato_link:hover{
+        transform: scale(1.1);
+    }
+    #zomato_link_text{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    #booking_div{
+        height: 200px;
+        width: 200px;
+        position:absolute;
+        margin-left: 250px;
+    }
+    #booking_im_link{
+        height:150px ;
+        width: 200px;
+        margin-top: 10px;
+        border: 4px white solid;
+    }
+    
+    #booking_im_link:hover{
+        transform: scale(1.1);
+    
+    }
+    #booking_im_link_text{
+        font-size: 10px;
+        margin-top: 15px;
+    
+    }
 }
