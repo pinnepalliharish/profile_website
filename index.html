@@ -4,17 +4,20 @@
         <link href="images/favicon.ico" rel="icon">
         <link href="try3_intro.css" rel="stylesheet" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0824a6030d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <div id="head">
                 <center>
-                    <h3 id="text_menu">Menu</h3>
+                    <span id="text_menu">Menu</span><br>    
                     <a href="#About Me" >About Me</a>
                     <a href="#Skills_and_Hobbies" >Skills & Hobbies</a>
                     <a href="#my_websites">My Websites</a>
                     <a href="#Contact">Contact</a>
+                    <a href="javascript:void"><i class="fa-solid fa-moon moon"></i></a>
+                    
+                    
                 </center> 
             </div>
         </header>
@@ -132,9 +135,19 @@
                 <a href="https://pinnepalliharish.github.io/profile_website/" id="gototop"> Go To Top</a>
                 <br>
             </center>
-
-
         </div>
+
+
+        <script>
+
+            document.querySelector(".moon").addEventListener("click",function(){
+
+                document.querySelector("body").classList.toggle("darkMode");
+                document.querySelector(".fa-solid fa-moon moon").classList.add("fa-solid fa-sun-bright")
+            })
+
+        </script>
+
     </body>
 
     
