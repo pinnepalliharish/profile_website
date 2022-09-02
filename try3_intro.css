@@ -163,11 +163,23 @@ body{
 }
 
 #My_Websites{
-    height: 450px;
+    height: 550px;
     width: 100%;
     background-color: black;
     margin-top: 2px;
     color: white;
+}
+
+.links{
+    position:absolute;
+    margin-left: 400px;
+    margin-top: 400px;
+}
+a:link{
+    color: aliceblue;
+}
+.links a{
+    margin-right: 120px;
 }
 #text_my_websites{
     color: white;
