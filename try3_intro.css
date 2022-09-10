@@ -54,6 +54,7 @@ body{
     border: 10px black solid;  
     background-size: cover;  
     margin-right: 15px;
+    height: 200px;
 }
 #My_name{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
