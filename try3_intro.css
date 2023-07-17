@@ -60,12 +60,13 @@ body{
     text-align: center;
 }
 #My_intro_para{
-    margin-left:70px; 
     margin-top: 0; 
     font-size: large; 
     margin-right: 15px; 
     font-weight: 500; 
-    font-family:sans-serif
+    font-family:sans-serif;
+    text-align: center;
+    
 }
 .fa-linkedin{
     font-size: 50px;
