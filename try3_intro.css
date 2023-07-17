@@ -68,7 +68,7 @@ body{
     text-align: center;
     
 }
-.fa-linkedin{
+/* .fa-linkedin{
     font-size: 50px;
     color: black;
 }
@@ -83,7 +83,12 @@ body{
 .fa-github-square{
     font-size: 50px;
     color: black;
+} */
+.sm{
+    font-size: 50px;
+    color: black;
 }
+
 #skills{
     height: 480px;
     margin-top:0;
