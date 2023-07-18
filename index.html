@@ -5,12 +5,13 @@
         <link href="try3_intro.css" rel="stylesheet" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/0824a6030d.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     </head>
     <body>
         <header>
             <div id="head">
                 <center>
-                    <span id="text_menu">Menu</span><br>    
+                    <span id="text_menu"><b>Menu</b></span><br>    
                     <a href="#About Me" >About Me</a>
                     <a href="#Skills_and_Hobbies" >Skills & Hobbies</a>
                     <a href="#my_websites">My Websites</a>
@@ -24,9 +25,9 @@
 
         <div id="about_me">
             <section id="About Me">
-                <h2 id="text_about_me">ABOUT ME</h2>
+                <h2 id="text_about_me"><b>ABOUT ME</b></h2>
                 <center>
-                <img id="My_img" src="images/my_image.jpg"  alt="my_image">
+                <img class="My_img" src="images/my_image.jpg"  alt="my_image">
                 <h1 id="My_name">P.HARISH</h1>
                 </center>
                 <p id="My_intro_para">
@@ -110,7 +111,7 @@
                         <center>
                             <br>
                             <h3 id="text_my_location">MY LOCATION :</h3>
-                            <iframe id="frame_location" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3854.7669582204126!2d78.07303740696406!3d14.95007132390526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spenna%20cementstalaricheruvu!5e0!3m2!1sen!2sin!4v1637580680464!5m2!1sen!2sin" allowfullscreen="" loading="lazy" ></iframe>
+                            <iframe id="frame_location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.0223452885984!2d76.99705150770201!3d11.10480539324896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7778d55de07%3A0x91eca6fd29bc1a0e!2sPeacock%20Men&#39;s%20Hostel!5e0!3m2!1sen!2sin!4v1689613733425!5m2!1sen!2sin" allowfullscreen="" loading="lazy" ></iframe>
                         </center>
                     </div>
 
@@ -143,7 +144,7 @@
             <center>
                 <br>
                 <h2 id="copyryt_and_name">&copy; P.HARISH</h2>
-                <a href="https://pinnepalliharish.github.io/profile_website/" id="gototop"> Go To Top</a>
+                <a href="#text_menu" id="gototop"> Go To Top</a>
                 <br>
             </center>
         </div>
@@ -151,10 +152,10 @@
 
         <script>
 
-            document.querySelector(".moon").addEventListener("click",function(){
-
-                document.querySelector("body").classList.toggle("darkMode");
-                document.querySelector(".fa-solid fa-moon moon").classList.add("fa-solid fa-sun-bright")
+            $(document).ready(function(){
+                $(".moon").click(function(){
+                    $("body").toggleClass("darkMode");
+                })
             })
 
         </script>
